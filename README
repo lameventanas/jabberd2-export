@@ -1,0 +1,46 @@
+=head1 NAME
+
+jabberd2-export - Export jabberd2 data to XEP 0227 format
+
+=head1 SYNOPSIS
+
+jabberd2-export [OPTIONS] [sm.xml] [out.xml]
+
+=head1 OPTIONS
+
+=over 4
+
+=item B<--verbose>
+
+=item B<--verbose>=x
+
+Set verbosity level (up to 2)
+
+=item B<--skip-domains=x>
+
+Comma-separated list of domains to skip from export
+
+=item B<--skip-users=x>
+
+Comma-separated list of users to skip from export (specifiy with or without domain)
+
+=item B<--random-passwords=yes|no|empty>
+
+Replace passwords with random ones: yes, no or only when empty
+
+=back
+
+=head1 SEE ALSO
+
+=over 4
+
+=item L<XEP 0227|http://xmpp.org/extensions/xep-0227.html>
+
+=back
+
+=head1 AUTHOR
+
+Alan Mizrahi, alan at mizrahi dot com dot ve
+
+Feel free to contact me if you have any comments or find this program useful.
+
